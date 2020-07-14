@@ -1,0 +1,58 @@
+﻿body {
+    background-image: linear-gradient(to left, #f3edc9, #cfe4e9);
+}
+
+#discription {
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+#example {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+#title {
+    text-align: center;
+}
+
+#ouput-container {
+    display: none;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+.row {
+    text-align: left;
+}
+
+.outputRow {
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.outputBox {
+    overflow: auto;
+}
+
+.output-name {
+    text-align: center;
+}
+
+#row-fizz {
+    background-color: red;
+}
+
+#row-buzz {
+    background-color: blue;
+}
+
+#row-fizzbuzz {
+    background-color: green;
+}
+
+#row-noneFizzBuzz {
+    background-color: yellow;
+}
