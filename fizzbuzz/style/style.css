@@ -20,7 +20,6 @@
 
 #ouput-container {
     display: none;
-    background-color: lightgray;
     border-radius: 25px;
 }
 
@@ -42,17 +41,17 @@
 }
 
 #row-fizz {
-    background-color: red;
+    background-color: #D62F7E;
 }
 
 #row-buzz {
-    background-color: blue;
+    background-color: #869CE0;
 }
 
 #row-fizzbuzz {
-    background-color: green;
+    background-color: #2EC74C;
 }
 
 #row-noneFizzBuzz {
-    background-color: yellow;
+    background-color: #E0BC34;
 }

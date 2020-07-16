@@ -26,13 +26,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="../Index.html">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Solve.html">Solve</a>
+                        <a class="nav-link active" href="Solve.html">Solve</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Code.html">Code</a>
@@ -53,27 +53,31 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
+        <div class="row justify-content-between">
+            <div class="col-lg-6 text-left">
                 <h1 class="mt-5">Fizz Buzz</h1>
-                <p class="lead">Test out the Taco Cat Excercise.</p>
-                <ul class="list-unstyled">
-                    <li> A short example.</li>
-                    <li> number1 = 3, number2 = 5.</li>
-                    <li>1, 2, fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16</li>
-                    <li>Try it for your Self.</li>
-                    <li>Enter a whole number between 1 and 100!</li>
-                </ul>
+                <p class="lead">Test out the Fizz Buzz Exercise.</p>
+                <p>
+                    A short example:<br />
+                    number1 = 3, number2 = 5.<br />
+                    The output will be :<br />
+                    1, 2, fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16
+                    Try it for your Self.
+                    Enter a whole number between 1 and 100!
+                </p>
+            </div>
+            <div class="col-lg-3"> 
+                <img src="../img/fizzing2.png"  />
             </div>
         </div>
-    </div>
-    <div class="container">
-        <input id="number1-input" placeholder="Number1" />
-        <input id="number2-input" placeholder="Number2" />
-        <button id="input-submit" type="button" class="btn btn-primary">Submit</button>
+        <div class="row justify-content-center">
+            <input id="number1-input" placeholder="Number1" />
+            <input id="number2-input" placeholder="Number2" />
+            <button id="input-submit" type="button" class="btn btn-primary">Submit</button>
+        </div>
     </div>
     <div id="ouput-container" class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-6">
                 <h3 class="output-name">Fizz Info</h3>
                 <div id="row-fizz" class="row outputRow">
@@ -103,7 +107,7 @@
     <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-alpha/Chart.js"></script>
-    <script src="../script/index.js"></script>
+    <script src="../script/solve.js"></script>
 </body>
 
 </html>

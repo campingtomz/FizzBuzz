@@ -77,7 +77,7 @@ function generateHTML(itemCount, itemName, itemArray) {
     let itemPercent = itemCount / 100;
     return `<div class="col-6 outputBox">
                 <p>The number of ${itemName}s are ${itemCount}.</p>
-                <p>The Precentage of ${itemName} is ${Math.round(itemPercent*100)}%.</p>
+                <p>The Percentage of ${itemName} is ${Math.round(itemPercent*100)}%.</p>
                 </div>
             <div class="col-6 outputBox" >
                 <p> The values associated with ${itemName} are:</p>
@@ -97,10 +97,10 @@ function generateChart(fizzCount, buzzCount, fizzBuzzCount) {
                 data: [fizzCount, buzzCount, fizzBuzzCount, other],
             
             backgroundColor: [
-                'red',
-                'blue',
-                'green',
-                'yellow'
+                '#D62F7E',
+                '#869CE0',
+                '#2EC74C',
+                '#E0BC34'
             ],
             borderColor: 'black'
             }],
